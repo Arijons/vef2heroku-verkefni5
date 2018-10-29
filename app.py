@@ -72,7 +72,7 @@ def form_process():
 
 
 
-run(host='localhost', port=8080, debug=True)
+
 
 
 bottle.run(host='0.0.0.0', port=argv[1])

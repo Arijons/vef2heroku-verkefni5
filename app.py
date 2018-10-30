@@ -5,7 +5,7 @@ from bottle import *
 bottle.debug(True)
 
 
-from bottle import run, route, template, request, post, redirect
+from bottle import run, route, template, request, post, redirect,static_file,get
 import html
 
 # signup
@@ -69,6 +69,15 @@ def form_process():
             return template('kvittun.tpl', name = new_user, namskeid=listi ,matur=fa_mat ,mvsk = kosanadur_med_vask,anvsk=kosanadur_an_vask)
         else:
             return redirect("/")
+
+
+
+
+
+@route('/static/<filepath:path>')
+def server_static(filepath):
+    return static_file(filepath, root='static/')
+
 
 
 

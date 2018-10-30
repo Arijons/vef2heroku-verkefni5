@@ -5,18 +5,17 @@
 	<!-- þvingar farsíma vafra til að birta gögn 1:1 og þá virka viðmið (breakpoints) í stílsíðum -->
 	<meta charset="utf-8">
 	<title>Verkefni5</title>
-	<link rel="stylesheet" type="text/css" href="css/samfelagsnappar.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/grid2_1.css">
-	<link rel="stylesheet" type="text/css" href="css/dropdown.css">
-	<link rel="stylesheet" type="text/css" href="css/form.css">	
+
+	<link rel="stylesheet" type="text/css" href="/static/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/grid2_1.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/form.css">	
 </head> 
 <body > 
     
 		<h1>Veforritun  <i></i></h1>
 
 		<a href="/">Heim</a>
-		
+
 
 	</header>
 	<section class="content"> 

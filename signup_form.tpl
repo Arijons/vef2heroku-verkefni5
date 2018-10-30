@@ -6,9 +6,9 @@
 	<meta charset="utf-8">
 	<title>Verkefni 5</title>
 
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/grid2_1.css">
-	<link rel="stylesheet" type="text/css" href="css/form.css">	
+	<link rel="stylesheet" type="text/css" href="/static/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/grid2_1.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/form.css">	
 </head> 
 <body > 
     
